@@ -8,7 +8,6 @@ Gated recurrent units (GRUs) are a gating mechanism in recurrent neural networks
 
 They have fewer parameters than LSTM, as they lack an output gate.
 
-alt GRU
 
 LSTM with embedding layer:
 The Embedding layer is used to create word vectors for incoming words. It sits between the input and the LSTM layer, i.e. the output of the Embedding layer is the input to the LSTM layer.
@@ -22,4 +21,4 @@ In problems where all timesteps of the input sequence are available, Bidirection
 
 The idea of Bidirectional Recurrent Neural Networks (RNNs) is straightforward. It involves duplicating the first recurrent layer in the network so that there are now two layers side-by-side, then providing the input sequence as-is as input to the first layer and providing a reversed copy of the input sequence to the second.
 
-alt LSTM
+
